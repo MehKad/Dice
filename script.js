@@ -24,7 +24,7 @@ nouveau.addEventListener("click", nouveauFunction);
 
 function lanceFunction() {
     random = Math.ceil(Math.random() * 6);
-    De.setAttribute("src", `imgs/${random}.svg`);
+    De.setAttribute("src", `${random}.svg`);
     De.style.display = "block";
     if (som1 >= 100) {
         win1.style.display = "inline";
