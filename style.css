@@ -1,0 +1,64 @@
+* {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body {
+    background: linear-gradient(90deg, orange, lightblue);
+}
+
+.container {
+    border-radius: 15px;
+    height: 65vh;
+    width: 75vw;
+    margin: auto;
+    margin-top: 17vh;
+    background-color: white;
+    box-shadow: 0 0 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.random {
+    font-size: 90px;
+    color: teal;
+}
+
+.score {
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: pink;
+    font-size: x-large;
+    text-align: center;
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.figure button {
+    cursor: pointer;
+    font-size: large;
+}
+
+.win {
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+.De {
+    display: none;
+}
